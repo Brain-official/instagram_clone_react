@@ -1,19 +1,19 @@
-import Header from "./Components/Header"
 import Home from "./Components/Home";
 import Search from "./Components/Search"
 import AddPost from './Components/AddPost'
 import Likes from './Components/Likes'
 import Profile from "./Components/Profile"
-import Footer from "./Components/Footer";
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Layout from "./Components/Layout/Layout";
+
 
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Layout />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
 
@@ -25,7 +25,7 @@ function App() {
         
         <Route path="/" element={<Profile/>}></Route>
       </Routes>
-      <Footer/>
+      
     </Router>
   );
 }
