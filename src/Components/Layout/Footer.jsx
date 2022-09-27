@@ -7,6 +7,7 @@ import { BsCircle } from "react-icons/bs"
 import {Link} from "react-router-dom"
 
 
+
 const Footer = () => {
     return (
         <nav id='footer' className='navbar navbar-expand-lg navbar-light bg-light'>
@@ -32,3 +33,5 @@ const Footer = () => {
 }
 
 export default Footer
+
+
