@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../logoImg/logo.png"
+import Logo from "../../logoImg/logo.png"
 import { FiCamera } from 'react-icons/fi';
 import {Link} from "react-router-dom"
 import { RiMessengerLine } from 'react-icons/ri';
@@ -13,7 +13,7 @@ const Header = () => {
                     <li className='nav-item'>
                         <Link className='nav-link' to="/"> <FiCamera size={27}/> </Link>
                     </li>
-                    <img className='logo' src={Logo} alt='logo'/>
+                    <img className='logo' src={Logo} alt='logo' width={'100'}/>
                     <li className='nav-item'>
                         <Link className='nav-link' to='/'> <RiMessengerLine size={27}/> </Link>
                     </li>
