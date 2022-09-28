@@ -1,4 +1,4 @@
-import Home from "./Components/Home";
+import Feeds from "./Components/Feeds"
 import Search from "./Components/Search"
 import AddPost from './Components/AddPost'
 import Likes from './Components/Likes'
@@ -13,9 +13,9 @@ import Layout from "./Components/Layout/Layout";
 function App() {
   return (
     <Router>
-      <Layout />
+      
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/feeds" element={<Feeds/>}></Route>
 
         <Route path="/" element={<Search />}></Route>
 

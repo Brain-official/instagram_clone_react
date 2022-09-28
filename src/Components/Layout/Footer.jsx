@@ -10,8 +10,8 @@ import {Link} from "react-router-dom"
 
 const Footer = () => {
     return (
-        <nav id='footer' className='navbar navbar-expand-lg navbar-light bg-light'>
-            <ul className='navbar-nav me-aut0 mb-2 mb-lg-0'>
+        <nav id='footer' className='navbar navbar-expand-lg navbar-light bg-light fixed-bottom'>
+            <ul className='navbar-nav me-aut0 mb-2 mb-lg-0  w-100 d-flex flex-row justify-content-around'>
                 <li className='nav-item'>
                     <Link className='nav-link' to="/"> <BsHouseDoorFill size={25}/> </Link>
                 </li>
