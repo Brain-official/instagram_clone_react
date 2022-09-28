@@ -1,0 +1,50 @@
+
+/* //relates to the nav element in StatusCircles */
+.status {
+    position: fixed;
+    width: 80%;
+    height: 97px;
+    background: #fff;
+    margin-top: 60px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+
+
+.status ul {
+    align-items: center;
+    left: 0;
+}
+
+
+.status ul .nav-link {
+    margin-top: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
