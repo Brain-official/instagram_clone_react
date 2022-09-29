@@ -6,8 +6,7 @@ import Profile from "./Components/Profile"
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Layout from "./Components/Layout/Layout";
-
+import "./styles/bootstrap-override.css";
 
 
 function App() {

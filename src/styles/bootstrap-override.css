@@ -1,0 +1,8 @@
+:root {
+    --bs-blue: #3691e8;
+}
+
+.text-primary {
+    color:  var(--bs-blue) !important;
+}
+
